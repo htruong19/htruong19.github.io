@@ -1,0 +1,176 @@
+/* Add any CSS you need to this file. */
+#Hstrname {
+  /*header css*/
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lucida Sans';
+  background-color: #59bdff;
+  width: auto;
+  margin: 0pt 50pt;
+  padding: 5pt;
+  border: 10pt ridge aqua;
+}
+
+#logo {
+  /*logo css*/
+  width: 80pt;
+  vertical-align: middle;
+}
+
+#headerdesc {
+  /*Description of store css*/
+  text-align: center;
+  margin: 0pt 50pt 0pt;
+  vertical-align: middle;
+  background-color: #59bdff;
+  border: 5pt ridge aquamarine;
+  font-style: italic;
+  font-family: 'Lucida Sans Regular';
+}
+
+#sortname {
+  /*Name of section css*/
+  text-align: center;
+  font-size: 30pt;
+  margin: 0pt 50pt 0pt;
+  border-bottom: 5pt double;
+  border-left: 5pt ridge;
+  border-right: 5pt ridge;
+  background-color: #bbe1fa;
+}
+
+#ContPageName {
+  /*Name of Contact Page css*/
+  /*Copied CSS from above*/
+  text-align: center;
+  font-size: 30pt;
+  margin: 0pt 50pt 0pt;
+  border-bottom: 5pt double;
+  border-left: 5pt ridge;
+  border-right: 5pt ridge;
+  background-color: #bbe1fa;
+}
+
+#sideNav {
+  /*Side Navigation css*/
+  position: fixed;
+  border: 5pt ridge;
+  width: 125pt;
+  font-size: 18pt;
+  margin: 0pt 0pt 0pt 50pt;
+  background-color: #bbe1fa;
+  text-align: center;
+}
+
+#sideNav h4 {
+  /*Header of Side Navigation css*/
+  font-size: 18pt;
+  border-bottom: 2pt ridge;
+  vertical-align: center;
+  text-align: center;
+}
+
+body {
+  /*Background css*/
+  /*https://www.pexels.com/photo/body-of-water-4344464/ source of non-copyright image for background*/
+  background-image: url('images/waterBackground.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+#main {
+  /*Main body of website css*/
+  position: relative;
+  margin: 0pt 51pt 0pt 182pt;
+  padding: 0pt 10pt 10pt 10pt;
+  border: 2pt ridge;
+  background-color: #cbd0ff;
+}
+
+#grid {
+  /*body of main body that contains the information css*/
+  position: relative;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 10pt;
+  object-fit: contain;
+}
+
+#grid div {
+  /*Individual block in grid css*/
+  border: 4pt ridge;
+  background-color: azure;
+  margin: auto;
+  width: 400pt;
+  height: 600pt;
+}
+
+#grid p {
+  /*Description of individual block css*/
+  font-size: 15pt;
+}
+
+#grid h {
+  /*Header of individual block css*/
+  font-size: 20pt;
+  font: bold;
+}
+
+#grid img {
+  /*Image of individual block css*/
+  width: 300pt;
+  object-fit: contain;
+}
+
+footer {
+  /*Footer css*/
+  text-align: center;
+  margin: 5pt;
+  background-color: azure;
+  width: auto;
+  border: ridge;
+}
+
+footer img {
+  /*Footer image css*/
+  width: 20px;
+}
+
+footer form {
+  border: 4pt ridge;
+  width: 425pt;
+  margin-left: auto;
+  padding: 5pt 10pt;
+}
+
+footer a {
+  text-align: center;
+}
+
+#Contact {
+  border: 3pt ridge;
+  font-size: 15pt;
+  width: 70pt;
+  margin-left: auto;
+  margin-bottom: 5pt;
+  background-color: azure;
+}
+
+#main form {
+  font-size: 20pt;
+  margin-left: 50pt;
+  margin-right: 50pt;
+  border: 3pt ridge;
+  padding: 10pt 20pt;
+}
+
+#cont1 {
+  display: inline-block;
+  text-align: right;
+}
+
+#main input {
+  background-color: azure;
+}
